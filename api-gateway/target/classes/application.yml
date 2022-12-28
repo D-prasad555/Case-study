@@ -1,0 +1,5 @@
+cloud:
+   gateway:
+       routes:
+            -id:User-Ms
+              uri:lb://USER-MS
